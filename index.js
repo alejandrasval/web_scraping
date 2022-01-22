@@ -39,7 +39,7 @@ function renderJobs() {
         <td style="padding:20px">${index}</td>
         <td style="padding:20px">${obj.title}</td>
         <td style="padding:20px">${obj.location}</td>
-        <td style="padding:20px"><a href='${obj.URL}'>${obj.URL}</a></td>
+        <td style="padding:20px"><a href="${obj.URL}">${obj.URL}</a></td>
     
      `;
   });
